@@ -1,34 +1,21 @@
-/*Логин пользователя:
-        логин под существующим пользователем,
-        логин с неверным логином и паролем.*/
+package user;
 
-        package user;
-
-import client.UserClient;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import pojo.User;
+import setup.Setup;
 
 import static org.hamcrest.Matchers.is;
 
 @DisplayName("Логин пользователя")
-public class AuthLoginTest {
-
-    private User user;
-    private String accessToken;
-    private UserClient userClient;
-    private int expStatusCode;
-    private static final String INCORRECT_202 = "Wrong email or password";
+public class AuthLoginTest extends Setup {
+    private static final String INCORRECT_202 = "email or password are incorrect";
 
     @Before
     public void setUp() {
-        userClient = new UserClient();
-        user = User.createRandom();
-        userClient.register(user)
-                .then()
-                .statusCode(200);
+        registerTestUser();
     }
 
     @Test
@@ -59,10 +46,8 @@ public class AuthLoginTest {
     }
 
     @After
-    public void deleteUser() {
-        userClient.delete(accessToken)
-                .then()
-                .statusCode(202);
+    public void deleteData() {
+        deleteUser();
     }
 
 }
