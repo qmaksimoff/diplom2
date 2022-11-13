@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "owntrlwvjhcqlenp@yandex.ru",
+        "name": "JXdl6tDQVV"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzE1NWNkYzE2MWRhMDAxYjc4OGJmZSIsImlhdCI6MTY2ODM3MTkxNywiZXhwIjoxNjY4MzczMTE3fQ.9CQP0kID9L9jiioHuA--gd6CuZbp_P-jAAVG6Ehl21I",
+    "refreshToken": "325fdc8228ddd9860f0165fef1315c25238dc96ccdb1b531c347074d26c167456356d7962d28232d"
+}

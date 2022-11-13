@@ -48,6 +48,7 @@ public class AuthRegisterTest extends Setup {
         userClient.register(user)
                 .then()
                 .statusCode(200);
+
         accessToken = userClient.getAccessToken(user);
         userClient.register(user)
                 .then()

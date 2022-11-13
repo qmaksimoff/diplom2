@@ -1,0 +1,5 @@
+{
+  "email": "l57X23jX1oqaczra@yandex.ru",
+  "password": "7dNgsDQtWL",
+  "name": "Ugt8nH3agI"
+}

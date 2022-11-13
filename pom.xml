@@ -65,6 +65,7 @@
 
     <build>
         <plugins>
+
             <plugin>
                 <!-- настройка плагина maven-surefire-plugin -->
                 <groupId>org.apache.maven.plugins</groupId>
@@ -106,6 +107,7 @@
                     <reportVersion>2.15.0</reportVersion>
                 </configuration>
             </plugin>
+
         </plugins>
     </build>
 

@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "user": {
+        "email": "kjtxpgjs4qwiaido@yandex.ru",
+        "name": "T0SXgdI9Hu"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzE1NWQzYzE2MWRhMDAxYjc4OGMwNyIsImlhdCI6MTY2ODM3MTkyMywiZXhwIjoxNjY4MzczMTIzfQ.jBQYOuoTUuc-PbrQ0LBn-2z-s2Iuar9m6D14qESraA0",
+    "refreshToken": "15e990833471a7e9ed609b89552ff8599e692545b4e476e0204acca16543d522013a22ff3a004746"
+}
