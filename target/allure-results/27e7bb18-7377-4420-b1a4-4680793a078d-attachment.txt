@@ -1,0 +1,63 @@
+{
+    "success": true,
+    "name": "Экзо-плантаго био-марсианский альфа-сахаридный бургер",
+    "order": {
+        "ingredients": [
+            {
+                "_id": "61c0c5a71d1f82001bdaaa78",
+                "name": "Кристаллы марсианских альфа-сахаридов",
+                "type": "main",
+                "proteins": 234,
+                "fat": 432,
+                "carbohydrates": 111,
+                "calories": 189,
+                "price": 762,
+                "image": "https://code.s3.yandex.net/react/code/core.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/core-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/core-large.png",
+                "__v": 0
+            },
+            {
+                "_id": "61c0c5a71d1f82001bdaaa79",
+                "name": "Мини-салат Экзо-Плантаго",
+                "type": "main",
+                "proteins": 1,
+                "fat": 2,
+                "carbohydrates": 3,
+                "calories": 6,
+                "price": 4400,
+                "image": "https://code.s3.yandex.net/react/code/salad.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/salad-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/salad-large.png",
+                "__v": 0
+            },
+            {
+                "_id": "61c0c5a71d1f82001bdaaa71",
+                "name": "Биокотлета из марсианской Магнолии",
+                "type": "main",
+                "proteins": 420,
+                "fat": 142,
+                "carbohydrates": 242,
+                "calories": 4242,
+                "price": 424,
+                "image": "https://code.s3.yandex.net/react/code/meat-01.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/meat-01-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/meat-01-large.png",
+                "__v": 0
+            }
+        ],
+        "_id": "637155bbc161da001b788bf2",
+        "owner": {
+            "name": "hYZpG3Cszl",
+            "email": "scxhmxe1gocasbht@yandex.ru",
+            "createdAt": "2022-11-13T20:38:16.110Z",
+            "updatedAt": "2022-11-13T20:38:16.110Z"
+        },
+        "status": "done",
+        "name": "Экзо-плантаго био-марсианский альфа-сахаридный бургер",
+        "createdAt": "2022-11-13T20:38:19.143Z",
+        "updatedAt": "2022-11-13T20:38:19.412Z",
+        "number": 29512,
+        "price": 5586
+    }
+}
